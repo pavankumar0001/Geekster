@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+     body{
+         background-color: aqua;
+         margin-left: 35%
+     }
+     i{
+         padding:10px;
+     }
+
+   </style>
+
+
+   
+    <title>GEEKSTER ADMISSION FORM</title>
+    
+</head>
+<body>
+    <h3>Application Form</h3>
+    <form id="f1">
+        
+                    <label for="name"> Full Name*</label>;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="email">Email*</label><br>
+                    <input type="text" placeholder="enter full name" required pattern="[a-Z]+" maxlenth="30">&nbsp;&nbsp;
+                    <input type="email"placeholder="enter your mail"required pattern=".+@gmail\.com" maxlenth="30">
+                    <h3>Select Course*</h3>
+                    <select>
+                        <option disabled>Select Course</option>
+                        <option>full stack development</option>
+                        <option>Advanced web development</option>
+                    </select><br>
+                    <label for="mb">Phone*</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label>Highest Qualification*</label><br>
+                    <input type="tel" placeholder="enter mobile number"required pattern="[6-9]{1}[0-9]{9}">
+                    <select name="qualification" id="q1">
+                        <option value="BE/BTECH CS/IT">BE/BTECH CS/IT</option>
+                        <option value="BE/BTECH OTHERS">BE/BTECH OTHER</option>
+                        <option value="MS/MTECH">ME/mTECH CS/IT</option>
+                        <option value="BCA">BCA</option>
+                        <option value="MCA">MCA</option>
+                        <OPTION >OTHERS</OPTION>
+                    </select> <br>
+                    <label>Year of complition *</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label>Programming Skills*</label><br>
+                <select>
+                    <option disabled>select year of complition </option>
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2020</option>
+                    <option>2021</option>
+                    <option>2022</option></select>
+                    <select>
+                        <option value="1">Select progamming skill</option>
+                        <option value="2">no coding skill</option>
+                        <option value="3">basic coding skill</option>
+                        <option value="4">intermediate coding skill</option>
+                        <option value="5">full coding skill</option>
+                    </select><br>
+                 <label>Current Company*</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <label>Total Work Experience*</label><br>
+                 <input type="text" placeholder="enter current company">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" placeholder="enter work experience (in Months)">
+                <br>
+                <input type="radio"><h4>By signing up, you agree to the <a href="#">Terms and Conditions</a>Terms and Conditions of Geekster (QuantumBit technologies Pvt. Ltd)*.</h4>
+               <input type="submit">
+            
+            </form>
+    
+</body>
+</html>
